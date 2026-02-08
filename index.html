@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Business AI Visibility Index</title>
-    <meta name="description" content="An independent snapshot of which local businesses are currently visible to AI-driven search and recommendation systems.">
+    <meta name="description"
+        content="An independent snapshot of which local businesses are currently visible to AI-driven search and recommendation systems.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- HERO SECTION -->
     <header class="hero">
         <div class="container">
+            <div class="hero-badge">Independent Research Initiative</div>
             <h1>Local Business AI Visibility Index</h1>
-            <p class="subheading">An independent snapshot of which local businesses are currently visible to AI-driven search and recommendation systems.</p>
+            <p class="subheading">An independent snapshot of which local businesses are currently visible to AI-driven
+                search and recommendation systems.</p>
+            <div class="hero-meta">
+                <span>Region: United Kingdom</span>
+                <span class="meta-divider">•</span>
+                <span>Last Updated: February 2026</span>
+            </div>
         </div>
     </header>
 
@@ -23,8 +33,10 @@
         <!-- SECTION 2 — WHAT THIS IS -->
         <section class="section" id="about">
             <div class="container">
-                <p class="lead">AI systems now summarise, rank, and recommend businesses automatically. This index documents which local businesses are currently interpreted as visible or invisible by those systems, based on public-facing signals only.</p>
-                
+                <p class="lead">AI systems now summarise, rank, and recommend businesses automatically. This index
+                    documents which local businesses are currently interpreted as visible or invisible by those systems,
+                    based on public-facing signals only.</p>
+
                 <ul class="disclaimer-list">
                     <li>This is not a review of quality</li>
                     <li>This is not advertising</li>
@@ -33,12 +45,41 @@
             </div>
         </section>
 
+        <!-- SECTION — ABOUT THIS INDEX -->
+        <section class="section section-dark" id="about-index">
+            <div class="container">
+                <h2>About This Index</h2>
+                <p>The Local Business AI Visibility Index is an independent research initiative that monitors how local
+                    businesses are represented to AI-driven discovery systems. It operates without commercial
+                    relationships with any listed business.</p>
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <h4>Independence</h4>
+                        <p>No business can pay to be listed, removed, or reclassified. All assessments are conducted
+                            using publicly available information only.</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Assessment Cycle</h4>
+                        <p>Businesses are reviewed on a rolling basis. Each entry reflects signals observed at the time
+                            of assessment, not real-time status.</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Scope</h4>
+                        <p>This index currently covers local service businesses operating in the United Kingdom.
+                            Geographic expansion is under consideration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- SECTION 3 — THE CLASSIFICATIONS -->
         <section class="section section-alt" id="classifications">
             <div class="container">
                 <h2>Current Classifications</h2>
-                <p>Businesses are assigned one of two classifications based on clarity, accessibility, and machine-readable signals.</p>
-                
+                <p>Businesses are assigned one of two classifications based on clarity, accessibility, and
+                    machine-readable signals.</p>
+
                 <div class="classification-grid">
                     <div class="classification-column">
                         <h3>Visible</h3>
@@ -62,11 +103,58 @@
             </div>
         </section>
 
-        <!-- SECTION 4 — THE INDEX LIST -->
-        <section class="section" id="index">
+        <!-- SECTION — METHODOLOGY -->
+        <section class="section" id="methodology">
             <div class="container">
-                <h2>Businesses Reviewed</h2>
-                
+                <h2>Methodology</h2>
+                <p>Classifications are determined through structured analysis of publicly observable signals. The
+                    assessment process does not involve proprietary data, paid tools, or private information.</p>
+
+                <div class="methodology-list">
+                    <div class="methodology-item">
+                        <span class="methodology-number">01</span>
+                        <div>
+                            <h4>Signal Collection</h4>
+                            <p>Public-facing digital presence is analysed across search engines, directories, and
+                                structured data sources.</p>
+                        </div>
+                    </div>
+                    <div class="methodology-item">
+                        <span class="methodology-number">02</span>
+                        <div>
+                            <h4>Clarity Assessment</h4>
+                            <p>Service descriptions, contact pathways, and booking mechanisms are evaluated for machine
+                                interpretability.</p>
+                        </div>
+                    </div>
+                    <div class="methodology-item">
+                        <span class="methodology-number">03</span>
+                        <div>
+                            <h4>Consistency Check</h4>
+                            <p>Information accuracy and consistency across platforms is verified against observable
+                                standards.</p>
+                        </div>
+                    </div>
+                    <div class="methodology-item">
+                        <span class="methodology-number">04</span>
+                        <div>
+                            <h4>Classification</h4>
+                            <p>A binary classification is assigned based on whether signals meet the threshold for
+                                reliable AI interpretation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4 — THE INDEX LIST -->
+        <section class="section section-alt" id="index">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Businesses Reviewed</h2>
+                    <span class="count-badge">12 businesses assessed</span>
+                </div>
+
                 <div class="table-wrapper">
                     <table class="index-table">
                         <thead>
@@ -74,6 +162,7 @@
                                 <th>Business Name</th>
                                 <th>Sector</th>
                                 <th>Classification</th>
+                                <th>Assessed</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -81,76 +170,90 @@
                                 <td>Riverside Dental Practice</td>
                                 <td>Healthcare</td>
                                 <td><span class="status status-visible"></span> Visible</td>
+                                <td class="date-cell">Jan 2026</td>
                             </tr>
                             <tr>
                                 <td>Morrison & Clarke Solicitors</td>
                                 <td>Legal Services</td>
                                 <td><span class="status status-visible"></span> Visible</td>
+                                <td class="date-cell">Jan 2026</td>
                             </tr>
                             <tr>
                                 <td>Greenfield Accountants</td>
                                 <td>Financial Services</td>
                                 <td><span class="status status-invisible"></span> Invisible</td>
+                                <td class="date-cell">Jan 2026</td>
                             </tr>
                             <tr>
                                 <td>The Old Mill Restaurant</td>
                                 <td>Hospitality</td>
                                 <td><span class="status status-invisible"></span> Invisible</td>
+                                <td class="date-cell">Jan 2026</td>
                             </tr>
                             <tr>
                                 <td>Apex Plumbing & Heating</td>
                                 <td>Trade Services</td>
                                 <td><span class="status status-visible"></span> Visible</td>
+                                <td class="date-cell">Jan 2026</td>
                             </tr>
                             <tr>
                                 <td>Hartley's Auto Repairs</td>
                                 <td>Automotive</td>
                                 <td><span class="status status-invisible"></span> Invisible</td>
+                                <td class="date-cell">Jan 2026</td>
                             </tr>
                             <tr>
                                 <td>Blossom Beauty Salon</td>
                                 <td>Personal Care</td>
                                 <td><span class="status status-invisible"></span> Invisible</td>
+                                <td class="date-cell">Jan 2026</td>
                             </tr>
                             <tr>
                                 <td>Precision Physiotherapy</td>
                                 <td>Healthcare</td>
                                 <td><span class="status status-visible"></span> Visible</td>
+                                <td class="date-cell">Feb 2026</td>
                             </tr>
                             <tr>
                                 <td>Cornerstone Estate Agents</td>
                                 <td>Property</td>
                                 <td><span class="status status-visible"></span> Visible</td>
+                                <td class="date-cell">Feb 2026</td>
                             </tr>
                             <tr>
                                 <td>Oakwood Veterinary Clinic</td>
                                 <td>Healthcare</td>
                                 <td><span class="status status-invisible"></span> Invisible</td>
+                                <td class="date-cell">Feb 2026</td>
                             </tr>
                             <tr>
                                 <td>Summit Roofing Contractors</td>
                                 <td>Trade Services</td>
                                 <td><span class="status status-invisible"></span> Invisible</td>
+                                <td class="date-cell">Feb 2026</td>
                             </tr>
                             <tr>
                                 <td>The Garden Room Café</td>
                                 <td>Hospitality</td>
                                 <td><span class="status status-visible"></span> Visible</td>
+                                <td class="date-cell">Feb 2026</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                
-                <p class="table-note">This list reflects publicly observable signals only. Businesses may request a re-check if information has changed.</p>
+
+                <p class="table-note">This list reflects publicly observable signals only. Businesses may request a
+                    re-check if information has changed.</p>
             </div>
         </section>
 
         <!-- SECTION 5 — WHY THIS MATTERS -->
-        <section class="section section-alt" id="importance">
+        <section class="section section-dark" id="importance">
             <div class="container">
                 <h2>Why This Matters</h2>
-                <p>As AI assistants increasingly replace first clicks and manual search, visibility is no longer optional. Businesses that are not clearly interpretable risk being silently bypassed.</p>
-                
+                <p>As AI assistants increasingly replace first clicks and manual search, visibility is no longer
+                    optional. Businesses that are not clearly interpretable risk being silently bypassed.</p>
+
                 <ul class="importance-list">
                     <li>Lost recommendations do not generate warnings</li>
                     <li>Visibility compounds over time</li>
@@ -163,8 +266,25 @@
         <section class="section" id="corrections">
             <div class="container">
                 <h2>Corrections</h2>
-                <p>If any classification is inaccurate due to recent changes, a correction review may be requested.</p>
-                <p class="review-link"><a href="mailto:review@example.com">Request review</a></p>
+                <p>If any classification is inaccurate due to recent changes, a correction review may be requested.
+                    Reviews are processed within 14 business days.</p>
+                <p class="review-link"><a href="mailto:corrections@aivisibilityindex.org">Request correction review</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- SECTION — CONTACT -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>For general enquiries, press requests, or research collaboration proposals:</p>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> <a
+                            href="mailto:enquiries@aivisibilityindex.org">enquiries@aivisibilityindex.org</a></p>
+                    <p><strong>Response Time:</strong> Within 5 business days</p>
+                </div>
+                <p class="contact-note">This index does not provide consulting services or accept payment for
+                    assessments.</p>
             </div>
         </section>
     </main>
@@ -172,8 +292,24 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            <p>This index reflects an independent assessment of publicly available information. It does not constitute endorsement, certification, or guarantee.</p>
+            <div class="footer-content">
+                <div class="footer-main">
+                    <p class="footer-disclaimer">This index reflects an independent assessment of publicly available
+                        information. It does not constitute endorsement, certification, or guarantee of business quality
+                        or service delivery.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <span class="footer-divider">|</span>
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+                <div class="footer-meta">
+                    <p>© 2026 Local Business AI Visibility Index. All rights reserved.</p>
+                    <p>Last updated: February 2026</p>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
+
 </html>
