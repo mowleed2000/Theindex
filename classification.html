@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Framework – Local Business AI Visibility Index</title>
+    <meta name="description" content="Classification definitions for the Local Business AI Visibility Index.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- SITE HEADER -->
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="site-title">Local Business AI Visibility Index</a>
+            <nav class="site-nav">
+                <a href="businesses.html">Businesses</a>
+                <a href="regions.html">Regions</a>
+                <a href="methodology.html">Methodology</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Classification Framework</h1>
+            <p class="page-subtitle">Definitions and interpretation guidelines for index classifications.</p>
+        </div>
+    </div>
+
+    <main>
+        <!-- OVERVIEW -->
+        <section class="section">
+            <div class="container-narrow">
+                <h2>Framework Overview</h2>
+                <p>The classification framework provides a standardised method for categorising businesses based on the
+                    interpretability of their public digital signals by automated systems.</p>
+
+                <p>This framework uses three mutually exclusive classifications. Each business is assigned exactly one
+                    classification based on assessment at a point in time.</p>
+
+                <div class="notice">
+                    <p>Classification reflects interpretability of public signals by automated systems. It is not a
+                        measure of quality, reputation, or compliance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLASSIFICATIONS -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Classifications</h2>
+                </div>
+
+                <div class="definition-list">
+                    <div class="definition-item">
+                        <div class="definition-term">
+                            <span class="badge badge-clear">Clear</span>
+                        </div>
+                        <div style="padding-left: 0; margin-top: 1rem;">
+                            <h4 style="margin-bottom: 0.75rem;">Definition</h4>
+                            <p>Public signals allow consistent automated interpretation. The business is reliably
+                                identifiable and categorisable by AI systems.</p>
+
+                            <h4 style="margin-top: 1.5rem; margin-bottom: 0.75rem;">Characteristics</h4>
+                            <ul style="list-style: none; padding: 0; margin: 0;">
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Business information is consistent across multiple public sources</li>
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Service descriptions are unambiguous and machine-readable</li>
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Location data is structured and verifiable</li>
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Third-party references align with stated business information</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="definition-item">
+                        <div class="definition-term">
+                            <span class="badge badge-ambiguous">Ambiguous</span>
+                        </div>
+                        <div style="padding-left: 0; margin-top: 1rem;">
+                            <h4 style="margin-bottom: 0.75rem;">Definition</h4>
+                            <p>Signals exist but introduce uncertainty or misclassification risk. The business may be
+                                inconsistently represented across platforms.</p>
+
+                            <h4 style="margin-top: 1.5rem; margin-bottom: 0.75rem;">Characteristics</h4>
+                            <ul style="list-style: none; padding: 0; margin: 0;">
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">• Some
+                                    inconsistencies exist in business information across sources</li>
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Service descriptions may be incomplete or unclear</li>
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Location data may be present but with conflicting details</li>
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Third-party references show partial alignment</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="definition-item">
+                        <div class="definition-term">
+                            <span class="badge badge-uninterpretable">Uninterpretable</span>
+                        </div>
+                        <div style="padding-left: 0; margin-top: 1rem;">
+                            <h4 style="margin-bottom: 0.75rem;">Definition</h4>
+                            <p>Signals are insufficient for reliable automated interpretation. The business may be
+                                overlooked or misrepresented by AI systems.</p>
+
+                            <h4 style="margin-top: 1.5rem; margin-bottom: 0.75rem;">Characteristics</h4>
+                            <ul style="list-style: none; padding: 0; margin: 0;">
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Limited or no consistent business information across public sources</li>
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Service descriptions are absent, vague, or contradictory</li>
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">•
+                                    Location data is missing or unverifiable</li>
+                                <li style="padding: 0.4rem 0; color: var(--text-secondary); font-size: 0.9rem;">• Few or
+                                    no third-party references available</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERPRETATION -->
+        <section class="section">
+            <div class="container-narrow">
+                <h2>Interpretation Guidelines</h2>
+
+                <p>Classifications should be interpreted within the following context:</p>
+
+                <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                    <li style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-light);">
+                        <strong>Point-in-time:</strong> Classifications reflect the state of signals at the time of
+                        assessment. Signals may change.</li>
+                    <li style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-light);">
+                        <strong>Interpretability only:</strong> A "Clear" classification does not mean a business is
+                        better than one classified as "Ambiguous".</li>
+                    <li style="padding: 0.75rem 0; border-bottom: 1px solid var(--border-light);"><strong>No
+                            causation:</strong> Classification does not predict or guarantee any specific outcome in AI
+                        systems.</li>
+                    <li style="padding: 0.75rem 0;"><strong>Context-dependent:</strong> The relevance of
+                        interpretability varies by sector and discovery context.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- RELATED -->
+        <section class="section section-alt">
+            <div class="container-narrow">
+                <h2>Related Documentation</h2>
+
+                <p>For additional context on how classifications are determined:</p>
+
+                <ul style="list-style: none; padding: 0; margin: 1rem 0;">
+                    <li style="padding: 0.5rem 0;"><a href="methodology.html">Assessment Methodology</a> — how
+                        assessments are conducted</li>
+                    <li style="padding: 0.5rem 0;"><a href="assessment-cycle.html">Assessment Cycle</a> — frequency and
+                        timing of assessments</li>
+                    <li style="padding: 0.5rem 0;"><a href="corrections.html">Corrections & Reviews</a> — requesting a
+                        classification review</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-disclaimer">This index reflects an independent assessment of publicly available
+                    information. It does not constitute endorsement, certification, or guarantee of business quality or
+                    service delivery.</p>
+                <div class="footer-links">
+                    <a href="methodology.html">Methodology</a>
+                    <a href="corrections.html">Corrections</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="legal.html">Legal</a>
+                </div>
+                <p class="footer-meta">© 2026 Local Business AI Visibility Index · Version 1.0</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

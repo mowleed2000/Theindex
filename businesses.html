@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Directory – Local Business AI Visibility Index</title>
+    <meta name="description"
+        content="Complete directory of assessed businesses in the Local Business AI Visibility Index.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- SITE HEADER -->
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="site-title">Local Business AI Visibility Index</a>
+            <nav class="site-nav">
+                <a href="businesses.html" class="active">Businesses</a>
+                <a href="regions.html">Regions</a>
+                <a href="methodology.html">Methodology</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+        <div class="container">
+            <h1>Business Directory</h1>
+            <p class="page-subtitle">Complete index of assessed businesses across all regions and sectors.</p>
+            <div class="page-meta">
+                <span>36 businesses</span>
+                <span>2 regions</span>
+                <span>6 sectors</span>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <!-- FILTER BAR -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="filter-region">Region</label>
+                        <select id="filter-region" class="filter-select">
+                            <option value="">All Regions</option>
+                            <option value="luton">Luton</option>
+                            <option value="brentford">Brentford</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filter-sector">Sector</label>
+                        <select id="filter-sector" class="filter-select">
+                            <option value="">All Sectors</option>
+                            <option value="barbershops">Barbershops</option>
+                            <option value="cafes">Cafés</option>
+                            <option value="dentists">Dentists</option>
+                            <option value="pubs">Pubs</option>
+                            <option value="restaurants">Restaurants</option>
+                            <option value="trade">Trade Services</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="filter-classification">Classification</label>
+                        <select id="filter-classification" class="filter-select">
+                            <option value="">All Classifications</option>
+                            <option value="clear">Clear</option>
+                            <option value="ambiguous">Ambiguous</option>
+                            <option value="uninterpretable">Uninterpretable</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="notice">
+                    <p>Classification reflects interpretability of public signals by automated systems. It is not a
+                        measure of quality, reputation, or compliance.</p>
+                </div>
+
+                <!-- DATA TABLE -->
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Business Name</th>
+                                <th>Sector</th>
+                                <th>Region</th>
+                                <th>Locality</th>
+                                <th>Classification</th>
+                                <th>Assessed</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- LUTON - Barbershops -->
+                            <tr>
+                                <td class="col-name">Blade & Fade Barbershop</td>
+                                <td>Barbershops</td>
+                                <td>Luton</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Classic Cuts Luton</td>
+                                <td>Barbershops</td>
+                                <td>Luton</td>
+                                <td>Bury Park</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">The Gentleman's Room</td>
+                                <td>Barbershops</td>
+                                <td>Luton</td>
+                                <td>Farley Hill</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Sharp Edge Barbers</td>
+                                <td>Barbershops</td>
+                                <td>Luton</td>
+                                <td>Lewsey</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Trim & Style</td>
+                                <td>Barbershops</td>
+                                <td>Luton</td>
+                                <td>Stopsley</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Crown Barbers</td>
+                                <td>Barbershops</td>
+                                <td>Luton</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <!-- LUTON - Dentists -->
+                            <tr>
+                                <td class="col-name">Luton Dental Practice</td>
+                                <td>Dentists</td>
+                                <td>Luton</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Parkside Dental Clinic</td>
+                                <td>Dentists</td>
+                                <td>Luton</td>
+                                <td>Wardown</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Family Dental Care</td>
+                                <td>Dentists</td>
+                                <td>Luton</td>
+                                <td>Bury Park</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Stopsley Dental Surgery</td>
+                                <td>Dentists</td>
+                                <td>Luton</td>
+                                <td>Stopsley</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Whitesmile Dentistry</td>
+                                <td>Dentists</td>
+                                <td>Luton</td>
+                                <td>Leagrave</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Chapel Street Dental</td>
+                                <td>Dentists</td>
+                                <td>Luton</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <!-- LUTON - Restaurants -->
+                            <tr>
+                                <td class="col-name">The Old Mill Kitchen</td>
+                                <td>Restaurants</td>
+                                <td>Luton</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Spice Garden</td>
+                                <td>Restaurants</td>
+                                <td>Luton</td>
+                                <td>Bury Park</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Corner House Grill</td>
+                                <td>Restaurants</td>
+                                <td>Luton</td>
+                                <td>Stopsley</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Marina's Italian</td>
+                                <td>Restaurants</td>
+                                <td>Luton</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">The Hungry Fox</td>
+                                <td>Restaurants</td>
+                                <td>Luton</td>
+                                <td>Farley Hill</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Golden Dragon</td>
+                                <td>Restaurants</td>
+                                <td>Luton</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <!-- BRENTFORD - Pubs -->
+                            <tr>
+                                <td class="col-name">The Griffin</td>
+                                <td>Pubs</td>
+                                <td>Brentford</td>
+                                <td>High Street</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">The Beehive</td>
+                                <td>Pubs</td>
+                                <td>Brentford</td>
+                                <td>Brentford Lock</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">The Weir</td>
+                                <td>Pubs</td>
+                                <td>Brentford</td>
+                                <td>Boston Manor</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">O'Brien's</td>
+                                <td>Pubs</td>
+                                <td>Brentford</td>
+                                <td>High Street</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">The Magpie & Crown</td>
+                                <td>Pubs</td>
+                                <td>Brentford</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">The Express Tavern</td>
+                                <td>Pubs</td>
+                                <td>Brentford</td>
+                                <td>Kew Bridge</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <!-- BRENTFORD - Cafés -->
+                            <tr>
+                                <td class="col-name">Dock Coffee</td>
+                                <td>Cafés</td>
+                                <td>Brentford</td>
+                                <td>Brentford Lock</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">The Morning Room</td>
+                                <td>Cafés</td>
+                                <td>Brentford</td>
+                                <td>High Street</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Canal Side Café</td>
+                                <td>Cafés</td>
+                                <td>Brentford</td>
+                                <td>Brentford Lock</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Steam & Bean</td>
+                                <td>Cafés</td>
+                                <td>Brentford</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">The Grind House</td>
+                                <td>Cafés</td>
+                                <td>Brentford</td>
+                                <td>Boston Manor</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Rosie's Kitchen</td>
+                                <td>Cafés</td>
+                                <td>Brentford</td>
+                                <td>High Street</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <!-- BRENTFORD - Trade Services -->
+                            <tr>
+                                <td class="col-name">Brentford Plumbing Co</td>
+                                <td>Trade Services</td>
+                                <td>Brentford</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">A1 Electrical Services</td>
+                                <td>Trade Services</td>
+                                <td>Brentford</td>
+                                <td>Boston Manor</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Westside Roofing</td>
+                                <td>Trade Services</td>
+                                <td>Brentford</td>
+                                <td>Kew Bridge</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Feb 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Thames Valley Heating</td>
+                                <td>Trade Services</td>
+                                <td>Brentford</td>
+                                <td>High Street</td>
+                                <td><span class="indicator indicator-clear"></span> Clear</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Quick Fix Handyman</td>
+                                <td>Trade Services</td>
+                                <td>Brentford</td>
+                                <td>Town Centre</td>
+                                <td><span class="indicator indicator-ambiguous"></span> Ambiguous</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                            <tr>
+                                <td class="col-name">Premier Decorators</td>
+                                <td>Trade Services</td>
+                                <td>Brentford</td>
+                                <td>Brentford Lock</td>
+                                <td><span class="indicator indicator-uninterpretable"></span> Uninterpretable</td>
+                                <td class="col-date">Jan 2026</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- PAGINATION -->
+                <div class="pagination">
+                    <button class="pagination-btn" disabled>← Previous</button>
+                    <button class="pagination-btn active">1</button>
+                    <button class="pagination-btn">2</button>
+                    <span class="pagination-info">Page 1 of 2</span>
+                    <button class="pagination-btn">Next →</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-disclaimer">This index reflects an independent assessment of publicly available
+                    information. It does not constitute endorsement, certification, or guarantee of business quality or
+                    service delivery.</p>
+                <div class="footer-links">
+                    <a href="methodology.html">Methodology</a>
+                    <a href="corrections.html">Corrections</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="legal.html">Legal</a>
+                </div>
+                <p class="footer-meta">© 2026 Local Business AI Visibility Index · Version 1.0</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
